@@ -19,7 +19,7 @@ am4core.useTheme(am4themes_animated);
 var chart = am4core.create("chartdiv", am4plugins_timeline.SerpentineChart);
 //var chart = am4core.create(this.$refs.chartdiv, am4plugins_timeline.SerpentineChart);
 chart.curveContainer.padding(50, 20, 50, 20);
-chart.levelCount = 4;
+chart.levelCount = 6;
 chart.yAxisRadius = am4core.percent(25);
 chart.yAxisInnerRadius = am4core.percent(-25);
 chart.maskBullets = false;
