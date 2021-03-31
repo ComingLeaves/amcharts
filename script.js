@@ -19,7 +19,7 @@ am4core.useTheme(am4themes_animated);
 var chart = am4core.create("chartdiv", am4plugins_timeline.SerpentineChart);    // 如果是组件挂载后调用的话，用这个
 //var chart = am4core.create(this.$refs.chartdiv, am4plugins_timeline.SerpentineChart);   // 如果是组件挂载前调用，用这个
 chart.curveContainer.padding(50, 20, 50, 20);
-chart.levelCount = 8;
+chart.levelCount = 5;
 chart.yAxisRadius = am4core.percent(25);
 chart.yAxisInnerRadius = am4core.percent(-25);
 chart.maskBullets = false;
